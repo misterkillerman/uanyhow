@@ -1,0 +1,131 @@
+body{
+  padding-bottom: 350px;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#headerP{
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  opacity: 1;
+}
+
+
+h2{
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+p{
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+h2, p{
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+img{
+  padding:20px 20px 70px 20px;
+  box-shadow:5px 4px 6px 5px lightgrey;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+#fireForce, #demonslayer{
+  width: 50%;
+  background: #fefefe;
+  border-radius: 2px;
+  animation-fill-mode: forwards;
+}
+
+.container img.us{
+  width:45%;
+  background: #fefefe;
+  border-radius: 2px;
+  animation-fill-mode: forwards;
+}
+
+.container p.imgContainer{
+  margin:auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:5%;
+  margin-top:5%;
+  width:90%;
+  animation-fill-mode: forwards;
+}
+
+#HisSinglePhoto {
+  transform: rotate(10deg);
+}
+
+#HerSinglePhoto {
+  transform: rotate(-10deg);
+}
+
+@keyframes slidein {
+  from{
+    opacity: 0;
+    margin-left: -100%;
+    width: 100%;
+  }
+
+  to{
+    opacity: 1;
+    margin-right:0;
+    width: 100%;
+  }
+}
+
+@keyframes slideinCON {
+  from{
+    opacity: 0;
+    margin-left: -100%;
+    width: 90%;
+  }
+
+  to{
+    opacity: 1;
+    margin-:0;
+    width: 90%;
+  }
+}
+
+
+@keyframes slideinIMG {
+  from{
+    opacity: 0;
+    margin-left: -100%;
+    width:45%;
+  }
+
+  to{
+    opacity: 1;
+    margin-left:0;
+    width:45%;
+  }
+}
+
+@keyframes slideinIMG2 {
+  from{
+    opacity: 0;
+    margin-left: -100%;
+    width:45%;
+  }
+
+  to{
+    opacity: 1;
+    margin-left:27%;
+    width:45%;
+  }
+}
