@@ -1,11 +1,48 @@
 body{
-  padding-bottom: 350px;
+
 }
 
 h1{
   font-size: 50px;
   text-align: center;
   letter-spacing: 3px;
+}
+
+ul{
+  list-style-type: none;
+  margin: -1%;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #fafafa;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+  width: 101%;
+}
+
+li{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  margin:0 20px;
+}
+
+li.active{
+  color: white;
+  background-color: darkgrey;
+}
+
+li:hover{
+  color: white;
+  background-color: lightgrey;
 }
 
 #headerP{
